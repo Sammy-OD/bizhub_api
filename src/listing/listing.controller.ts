@@ -1,7 +1,7 @@
 import { Body, Controller, Delete, Get, HttpStatus, Param, ParseFilePipeBuilder, Patch, Post, UploadedFiles, UseGuards, UseInterceptors } from '@nestjs/common';
-import { AuthGuard } from 'src/auth/auth.guard';
+import { AuthGuard } from '@src/auth/auth.guard';
 import { ListingService } from './listing.service';
-import { GetUser } from 'src/auth/decorator';
+import { GetUser } from '@src/auth/decorator';
 import { CreateListingDto } from './dto';
 import { FilesInterceptor } from '@nestjs/platform-express';
 

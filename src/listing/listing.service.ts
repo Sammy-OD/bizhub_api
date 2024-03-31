@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { CreateListingDto } from './dto';
-import { PrismaService } from 'src/prisma/prisma.service';
-import { CloudinaryService } from 'src/cloudinary/cloudinary.service';
+import { PrismaService } from '@src/prisma/prisma.service';
+import { CloudinaryService } from '@src/cloudinary/cloudinary.service';
 
 @Injectable()
 export class ListingService {
